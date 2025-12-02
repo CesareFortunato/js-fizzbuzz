@@ -1,0 +1,39 @@
+div {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 80px);
+    gap: 10px;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.number {
+    background-color: #0a9433;
+}
+
+.fizz {
+    background-color: #f58624;
+}
+
+.buzz {
+    background-color: #298fb8;
+}
+
+.fizzbuzz {
+    background-color: #62287a;
+}
